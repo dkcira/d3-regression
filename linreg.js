@@ -3,6 +3,7 @@
 // For Trilogy class demo
 // based on https://observablehq.com/@harrystevens/introducing-d3-regression
 function doLinearRegression(dataLinear, theDomain){
+  // build linear regression function
   linearRegression = d3.regressionLinear()
   .x(d => d.x)
   .y(d => d.y)
