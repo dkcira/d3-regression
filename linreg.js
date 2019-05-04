@@ -55,8 +55,6 @@ function doLinearRegression(dataLinear, theDomain){
        .attr("y1", d => yScaleLinear(d[0][1]))
        .attr("y2", d => yScaleLinear(d[1][1]));
 
-//       .attr("class", "regression")
-  // return svg.node();
 }
 
 
